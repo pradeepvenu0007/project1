@@ -39,7 +39,7 @@ public class update extends HttpServlet {
 			
 			RequestDispatcher rd=request.getRequestDispatcher("menubar.html");  
 		    rd.include(request, response);
-		    out.println("<form action=\"updateDetail\" method=\"post\">"
+		    out.println("<form action=\"updateDetail\" >"
 				+ "<div>	<label >Name</label>\r\n"
 				+ "					<input  name=\"name\" type=\"text\" value=\""+a.getName()+"\" required>"
 				+"<div></div><br><label >Email Address</label>\r\n"
