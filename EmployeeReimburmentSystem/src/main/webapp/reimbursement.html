@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<div class="container">  
+  <form id="contact" action="http://localhost:8078/EmployeeReimburmentSystem/form" >
+    <h3> Reimbursement Form</h3>
+    
+    <fieldset>
+    <label>Claim Type</label>
+  <select name="type" id="cars" required>
+    <option value="travel">Travel</option>
+    <option value="education">Education</option>
+    <option value="medial">Medical</option>
+    
+  </select>
+     
+    </fieldset>
+    <fieldset>
+      <label>Amount  need to be claimed</label>
+    <input type="text" name="amount" placeholder="Amount in Rs." required>
+      </fieldset>
+   
+    <fieldset>
+      <textarea placeholder="Description" name="description" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+   
+  </form>
+</div>
+</body>
+</html>

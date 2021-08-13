@@ -1,0 +1,86 @@
+<html>
+<head>
+<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+
+<div class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+		<div class="login-form">
+		<form action="http://localhost:8078/EmployeeReimburmentSystem/login" >
+			<div class="sign-in-htm">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" name="user" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="password"  type="password" name="password" class="input" >
+				</div>
+				
+				<div class="group">
+					<input type="submit" class="button" value="Sign In">
+				</div>
+					</form>
+					<div class="foot-lnk">
+					<label for="tab-2">Not a Member?</a>
+				</div>
+				<div class="hr"></div>
+				
+			</div>
+		
+			<div class="sign-up-htm">
+						<form action="http://localhost:8078/EmployeeReimburmentSystem/reg" >
+		
+				<div class="group">
+					<label for="pass" class="label">Name</label>
+					<input id="pass" name="name" type="text" class="input" required>
+				</div>
+				<div class="group">
+					<label for="user" class="label">Email Address</label>
+					<input id="user" name="email" type="text" class="input" required>
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Mobile Number</label>
+				<input type="tel" name="mobile" class="input"  pattern="[0-9]{10}" required>
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" name="password"type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<label for="user" class="label">Department</label>
+					<input id="user" name="department" type="text" class="input" required>
+				</div>
+				<div class="group">
+					<label for="user" class="label">Designation</label>
+					<input id="user" name="designation" type="text" class="input" required>
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Address</label>
+					<input id="pass" name="address" type="text" class="input" required>
+				</div>
+				<div class="group radio-grp">
+					<label for="pass" class="label">Employee</label>
+					<input type="radio" name="type" class="input" value="employee" required>
+					<label for="pass" class="label">Manager</label>
+					<input type="radio" name="type" class="input" value="manager" required>
+					
+				</div>
+				<div class="group">
+					<input type="submit" class="button" value="Sign Up">
+				</div>
+				</form>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<label for="tab-1">Already Member?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

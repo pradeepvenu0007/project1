@@ -1,0 +1,26 @@
+.button {
+     background: #0066A2;
+     color: white;
+     border-style: outset;
+     border-color: #0066A2;
+     height: 50px;
+     width: 100px;
+     font: bold 15px arial, sans-serif;
+     
+}
+.button {
+     background: #B9DFFF;
+     color: #fff;
+     border: 1px solid #eee;
+     border-radius: 20px;
+     box-shadow: 5px 5px 5px #eee;
+     
+}
+.button:hover {
+     background: #016ABC;
+     color: #fff;
+     border: 1px solid #eee;
+     border-radius: 20px;
+     box-shadow: 5px 5px 5px #eee;
+     text-shadow:dark;
+}
