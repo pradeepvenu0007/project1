@@ -5,7 +5,8 @@ view their past tickets and pending requests. Finance managers can log in and vi
 and history for all employees in the company. Finance managers are authorized to approve and deny requests for
 expense reimbursement.
 
-An Employee can:
+#An Employee can:
+
 • Login.
 
 • View the employee home page.
@@ -23,7 +24,7 @@ An Employee can:
 • Update their information.
 
 
-A Manager can:
+#A Manager can:
 
 • Login.
 
@@ -41,7 +42,7 @@ A Manager can:
 
 • View all employees.
 
-Technologies
+#Technologies
 
 • Java 1.8
 
@@ -67,7 +68,7 @@ Technologies
 
 • Log4j
 
-Environment
+#Environment
 
 • Tomcat
 
