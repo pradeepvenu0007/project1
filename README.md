@@ -7,17 +7,26 @@ expense reimbursement.
 
 An Employee can:
 • Login.
+
 • View the employee home page.
+
 • Logout.
+
 • Submit a reimbursement request.
+
 • View their pending reimbursement requests.
+
 • View their resolved reimbursement requests.
+
 • View their information.
+
 • Update their information.
 
 
 A Manager can:
+
 • Login.
+
 • View the manager home page.
 • Logout.
 • Approve/Deny pending reimbursement requests.
